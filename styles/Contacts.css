@@ -1,0 +1,65 @@
+.data{
+    margin-right: 10px;
+}
+.map{
+    border-radius: var(--br-xl);
+    height: 310px;
+}
+.main-input{
+    width: 100%;
+    height: 40px;
+    border-radius: var(--br-sm);
+    padding-left: 10px;
+    background: var(--main);
+    border: none;
+}
+.email-margin{
+    margin-right: 25px;
+}
+.second-input{
+    width: 99%;
+    height: 130px;
+    background: var(--main);
+    border: solid 1px var(--input-border);
+    padding-top: 0;
+}
+.contacts-data{
+    width: 585px;
+    margin-left: 60px;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.send{
+    margin-top: 30px;
+}
+.footer{
+    margin-top: 100px;
+}
+.comment-input{
+    max-width: 100%;
+}
+.deranged-data{
+    width: 700px;
+}
+
+@media screen and (max-width: 992px) {
+    .contacts-data{
+        margin: 0;
+    }
+    .contacts-text{
+        width: 100%;
+    }
+    .deranged-data{
+        width: 100%;
+    }
+    .contacts-data{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+}
+

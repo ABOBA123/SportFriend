@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/globals.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="menu flex-row-center">
+            <div class="flex-row-center sharix-menu-text">
+                <img class="ShariX-icon" src="../images/sharix-logo 1.svg" alt="sharix-logo">
+                <p>ShariX OpenTemplate</p>
+            </div>
+            <div id="popup" class="popup">
+                <ul id="menu" class="menu-text decoration-none fixed-width">
+                    <a class="cursor-pointer clicked-reference " href="../pages/AboutUs.html">
+                        <li class="blue-text">О нас</li>
+                    </a>
+                    <a class="cursor-pointer clicked-reference" href="../pages/servises.html">
+                        <li>Услуги</li>
+                    </a>
+                    <a class="cursor-pointer clicked-reference" href="../pages/Partners.html">
+                        <li>Партнерам</li>
+                    </a>
+                    <a class="cursor-pointer clicked-reference" href="../pages/Contacts.html">
+                        <li>Контакты</li>
+                    </a>
+                    <div class="cover-enter-icon">
+                    <button id="login" class="blue-text clicked-reference login-btn display-none">Регистрация</button>
+                    <img class="enter-icon" src="../images/enter.svg" alt="sharix-logo">
+                    </div>
+                </ul>
+            </div>
+            <div id="burgerMenu" class="flex-row-center display-none">
+                <div  class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+        </header>
+        <div class="content-center">
+            <div>
+            <h1>Реквизиты ООО “ВАША КОМПАНИЯ”</h1>
+            <p><span>Юридический адрес:</span> Индекс, Название города, Название улицы, номер дома, номер<br> помещения/офиса/квартиры</p>
+            <p><span>ИНН / КПП:</span> 10-ти значный номер</p>
+            <p><span>ОГРН:</span> 13-ти значный номер</p>
+            <p><span>Банк:</span> Наименование банка</p>
+            <p><span>БИК:</span> 9-ти значный номер</p>
+            <p><span>к/сч:</span> 20-ти значный номер </p>
+            <p><span>р/с:</span> 20-ти значный номер </p>
+            <p><span>E-mail:</span> Ваша электронная почта</p>
+        </div>
+        </div>
+        <footer >
+            <div  class="flex-row content-between content-around wrap-footer footer-size adaptive-content-768">
+                <div  class="flex-column services-footer">
+                    <h4>О компании</h4>
+                    <ul class="list-none footer-text cursor-pointer">
+                        <li>Партнерам</li>
+                        <li>Услуги</li>
+                        <li>Контакты</li>
+                    </ul>
+                </div>
+                <div class="flex-column services-footer">
+                    <h4>О сервисе</h4>
+                    <ul class="list-none footer-text cursor-pointer decoration-none">
+                        <li>Преимущества</li>
+                        <a href="../footer-pages/LegalInformation.html">
+                            <li>Правовая информация</li>
+                        </a>
+                        <li>Правила оказания услуг</li>
+                    </ul>
+                </div>
+                <div class="flex-column services-footer">
+                    <h4>Услуги</h4>
+                    <ul class="list-none footer-text cursor-pointer">
+                        <li>Напарник на тренировку</li>
+                        <li>Компания на тренировку</li>
+                        <li>Занятия с тренером</li>
+                    </ul>
+                </div>
+                <div class="flex-column services-footer">
+                    <h4>О приложении</h4>
+                    <ul class="list-none footer-text cursor-pointer">
+                        <li>Скачать приложение</li>
+                        <li>Подключиться</li>
+                        <li>Войти</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center w-100 footer-row">
+                <p>2023 © powered by</p>
+                <img class="footer-image-margin" src="../images/sharix-footer-logo.svg" alt="sharix-footer-logo">
+            </div>
+        </footer>
+    </div>
+    <script src="../scripts/burger.js"></script>
+</body>
+</html>

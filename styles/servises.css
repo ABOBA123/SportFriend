@@ -1,0 +1,136 @@
+.background-popup{
+    width: 100%;
+    height: 100%;
+
+    left: 0;
+    top: 0;
+
+    background-color: rgba(0, 0, 0, 0.205);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+
+    z-index: 100;
+}
+.table-popup{
+    width: 400px;
+    min-height: 400px;
+
+    padding: 25px;
+
+    position: relative;
+
+    background-color: var(--main);
+
+    border-radius: 10px;
+}
+.redCross{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.first-proposal{
+    position: relative;
+}
+
+.Service{
+    margin-right: 400px;
+    padding-left: 60px;
+    white-space: nowrap;
+    vertical-align: top;
+}
+.active-table {
+    border-radius: 10px;
+}
+.active-table1  {
+    border: 1px solid var(--accent);
+    border-radius: 10px;
+}
+.clarification {
+    color: var(--second-text);
+}
+.numbers{
+    vertical-align: top;
+}
+
+.information-table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    cursor: pointer;
+}
+.information-table p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.tabular-line{
+    width: 100%;
+    border-radius: var(--br-md);
+    border: 1px solid var(--bg);
+    transition: 0.3s all;
+}
+.tabular-line-margin{
+    margin-bottom: 10px;
+}
+.modal-table{
+    min-width: 400px;
+    border-radius: 10px;
+    padding: 25px;
+    position: fixed;
+    margin: auto;
+    z-index: 1;
+    background-color: var(--main);
+}
+.tabular-line:hover{
+    border: 1px solid var(--accent);
+}
+.information-table :nth-child(1):hover{
+    border: 1px solid var(--bg);
+}
+.tabular-line >*:nth-child(1){
+    width: 88px;
+    display: flex;
+    justify-content: center;
+}
+.tabular-line >*:nth-child(2){
+    width: 168px;
+}
+.tabular-line >*:nth-child(3){
+    width: 932px;
+}
+.tabular-line >*:nth-child(4){
+    width: 146px;
+    display: flex;
+    align-items: center;
+}
+.tabular-line >*:nth-child(5){
+    width: 146px;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 1200px) {
+    .tabular-line > *:nth-child(3) {
+        width: 697px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .tabular-line > *:nth-child(3) {
+        width: 488px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tabular-line > *:nth-child(3) {
+        width: 265px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .tabular-line > *:nth-child(3) {
+        width: 144px;
+        margin: 0;
+    }
+}
